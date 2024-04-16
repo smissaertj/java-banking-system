@@ -23,11 +23,13 @@ public class BankAccount {
         return this.balance;
     }
 
-    public void deposit(double amount){
+    public double deposit(double amount){
         this.balance += amount;
+        return amount;
     }
 
-    public void withdraw(double amount){
+    public double withdraw(double amount){
         this.balance -= amount;
+        return amount;
     }
 }
