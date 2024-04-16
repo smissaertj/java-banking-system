@@ -1,4 +1,4 @@
-package main.java;
+package exceptions;
 
 public class InsufficientFundsExecption {
 }
