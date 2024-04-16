@@ -36,6 +36,7 @@ public class BankTest {
         bank.addAccount(account);
         Object result = bank.getAccountByNumber(1234);
         assertTrue(result instanceof BankAccount);
+        assertEquals(1234, ((BankAccount) result).getAccountNumber());
     }
 
     @Test
