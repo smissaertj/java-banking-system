@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gaphor xmlns="http://gaphor.sourceforge.net/model" version="3.0" gaphor-version="2.24.0">
+<StyleSheet id="58d6989a-66f8-11ec-b4c8-0456e5e540ed">
+<styleSheet>
+<val>diagram {
+ /* line-style: sloppy 0.3; */
+}
+
+controlflow {
+  dash-style: 0;
+}
+</val>
+</styleSheet>
+</StyleSheet>
+<Package id="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed">
+<name>
+<val>Banking_System_1</val>
+</name>
+<nestedPackage>
+<reflist>
+<ref refid="7514fb11-fbc4-11ee-b3de-e3fa2c3d8b47"/>
+</reflist>
+</nestedPackage>
+<ownedDiagram>
+<reflist>
+<ref refid="eb915784-fbc3-11ee-9b8e-e3fa2c3d8b47"/>
+</reflist>
+</ownedDiagram>
+</Package>
+<Diagram id="eb915784-fbc3-11ee-9b8e-e3fa2c3d8b47">
+<diagramType>
+<val>cls</val>
+</diagramType>
+<element>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</element>
+<name>
+<val></val>
+</name>
+<ownedPresentation>
+<reflist>
+<ref refid="75153a11-fbc4-11ee-b020-e3fa2c3d8b47"/>
+<ref refid="4780384e-fbc4-11ee-b8a1-e3fa2c3d8b47"/>
+<ref refid="4bd1d746-fbc4-11ee-8f36-e3fa2c3d8b47"/>
+<ref refid="dd412469-fbc6-11ee-8733-e3fa2c3d8b47"/>
+<ref refid="307c0645-fbc4-11ee-8674-e3fa2c3d8b47"/>
+</reflist>
+</ownedPresentation>
+</Diagram>
+<Class id="0dc462f1-fbc4-11ee-8138-e3fa2c3d8b47">
+<name>
+<val>BankAccount</val>
+</name>
+<ownedAttribute>
+<reflist>
+<ref refid="e546b0eb-fbc4-11ee-b015-e3fa2c3d8b47"/>
+<ref refid="ed9f7b32-fbc4-11ee-8901-e3fa2c3d8b47"/>
+<ref refid="f35f3383-fbc4-11ee-9035-e3fa2c3d8b47"/>
+</reflist>
+</ownedAttribute>
+<ownedOperation>
+<reflist>
+<ref refid="865c7ede-fbc5-11ee-98a2-e3fa2c3d8b47"/>
+<ref refid="9b89bc44-fbc5-11ee-95fb-e3fa2c3d8b47"/>
+<ref refid="a3ea8569-fbc5-11ee-a80a-e3fa2c3d8b47"/>
+<ref refid="ab69af2b-fbc5-11ee-8d56-e3fa2c3d8b47"/>
+<ref refid="b4103821-fbc5-11ee-8387-e3fa2c3d8b47"/>
+</reflist>
+</ownedOperation>
+<package>
+<ref refid="7514fb11-fbc4-11ee-b3de-e3fa2c3d8b47"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="307c0645-fbc4-11ee-8674-e3fa2c3d8b47"/>
+</reflist>
+</presentation>
+</Class>
+<ClassItem id="307c0645-fbc4-11ee-8674-e3fa2c3d8b47">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 743.4982812709709, 142.06086764528425)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>279.05210876464844</val>
+</width>
+<height>
+<val>274.9184265136719</val>
+</height>
+<diagram>
+<ref refid="eb915784-fbc3-11ee-9b8e-e3fa2c3d8b47"/>
+</diagram>
+<parent>
+<ref refid="75153a11-fbc4-11ee-b020-e3fa2c3d8b47"/>
+</parent>
+<subject>
+<ref refid="0dc462f1-fbc4-11ee-8138-e3fa2c3d8b47"/>
+</subject>
+</ClassItem>
+<Class id="477ff665-fbc4-11ee-a048-e3fa2c3d8b47">
+<name>
+<val>Bank</val>
+</name>
+<ownedAttribute>
+<reflist>
+<ref refid="6991ecdf-fbc5-11ee-8d76-e3fa2c3d8b47"/>
+<ref refid="72f675ef-fbc5-11ee-89de-e3fa2c3d8b47"/>
+</reflist>
+</ownedAttribute>
+<ownedOperation>
+<reflist>
+<ref refid="d837c1f2-fbc5-11ee-8bcc-e3fa2c3d8b47"/>
+<ref refid="67d26001-fbc6-11ee-a0c7-e3fa2c3d8b47"/>
+<ref refid="7afdb4cf-fbc6-11ee-af2e-e3fa2c3d8b47"/>
+<ref refid="878a31e1-fbc6-11ee-849c-e3fa2c3d8b47"/>
+<ref refid="8f0be97a-fbc6-11ee-b839-e3fa2c3d8b47"/>
+</reflist>
+</ownedOperation>
+<package>
+<ref refid="7514fb11-fbc4-11ee-b3de-e3fa2c3d8b47"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="4780384e-fbc4-11ee-b8a1-e3fa2c3d8b47"/>
+</reflist>
+</presentation>
+</Class>
+<ClassItem id="4780384e-fbc4-11ee-b8a1-e3fa2c3d8b47">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 215.0176954511118, 142.0608676452842)</val>
+</matrix>
+<top-left>
+<val>(-150.56741744690726, 0.0)</val>
+</top-left>
+<width>
+<val>614.0</val>
+</width>
+<height>
+<val>274.9184265136719</val>
+</height>
+<diagram>
+<ref refid="eb915784-fbc3-11ee-9b8e-e3fa2c3d8b47"/>
+</diagram>
+<parent>
+<ref refid="75153a11-fbc4-11ee-b020-e3fa2c3d8b47"/>
+</parent>
+<subject>
+<ref refid="477ff665-fbc4-11ee-a048-e3fa2c3d8b47"/>
+</subject>
+</ClassItem>
+<Class id="4bd18880-fbc4-11ee-ac99-e3fa2c3d8b47">
+<name>
+<val>InsufficientFundsException extends Exception</val>
+</name>
+<note>
+<val>Extends the Exception Class.</val>
+</note>
+<package>
+<ref refid="7514fb11-fbc4-11ee-b3de-e3fa2c3d8b47"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="4bd1d746-fbc4-11ee-8f36-e3fa2c3d8b47"/>
+</reflist>
+</presentation>
+</Class>
+<ClassItem id="4bd1d746-fbc4-11ee-8f36-e3fa2c3d8b47">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 382.66354519290314, -33.98217804854524)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>360.83473607806764</val>
+</width>
+<height>
+<val>125.36289040472695</val>
+</height>
+<diagram>
+<ref refid="eb915784-fbc3-11ee-9b8e-e3fa2c3d8b47"/>
+</diagram>
+<parent>
+<ref refid="75153a11-fbc4-11ee-b020-e3fa2c3d8b47"/>
+</parent>
+<subject>
+<ref refid="4bd18880-fbc4-11ee-ac99-e3fa2c3d8b47"/>
+</subject>
+</ClassItem>
+<Package id="7514fb11-fbc4-11ee-b3de-e3fa2c3d8b47">
+<name>
+<val>bank</val>
+</name>
+<ownedType>
+<reflist>
+<ref refid="477ff665-fbc4-11ee-a048-e3fa2c3d8b47"/>
+<ref refid="4bd18880-fbc4-11ee-ac99-e3fa2c3d8b47"/>
+<ref refid="dd40f456-fbc6-11ee-b494-e3fa2c3d8b47"/>
+<ref refid="0dc462f1-fbc4-11ee-8138-e3fa2c3d8b47"/>
+</reflist>
+</ownedType>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="75153a11-fbc4-11ee-b020-e3fa2c3d8b47"/>
+</reflist>
+</presentation>
+</Package>
+<PackageItem id="75153a11-fbc4-11ee-b020-e3fa2c3d8b47">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 157.31657130239336, -3.371522868610852)</val>
+</matrix>
+<top-left>
+<val>(0.0, -114.32456816796842)</val>
+</top-left>
+<width>
+<val>1078.2295884950881</val>
+</width>
+<height>
+<val>611.2937297754606</val>
+</height>
+<children>
+<reflist>
+<ref refid="4780384e-fbc4-11ee-b8a1-e3fa2c3d8b47"/>
+<ref refid="4bd1d746-fbc4-11ee-8f36-e3fa2c3d8b47"/>
+<ref refid="dd412469-fbc6-11ee-8733-e3fa2c3d8b47"/>
+<ref refid="307c0645-fbc4-11ee-8674-e3fa2c3d8b47"/>
+</reflist>
+</children>
+<diagram>
+<ref refid="eb915784-fbc3-11ee-9b8e-e3fa2c3d8b47"/>
+</diagram>
+<subject>
+<ref refid="7514fb11-fbc4-11ee-b3de-e3fa2c3d8b47"/>
+</subject>
+</PackageItem>
+<Property id="e546b0eb-fbc4-11ee-b015-e3fa2c3d8b47">
+<class_>
+<ref refid="0dc462f1-fbc4-11ee-8138-e3fa2c3d8b47"/>
+</class_>
+<name>
+<val>int accountNumber</val>
+</name>
+<visibility>
+<val>private</val>
+</visibility>
+</Property>
+<Property id="ed9f7b32-fbc4-11ee-8901-e3fa2c3d8b47">
+<class_>
+<ref refid="0dc462f1-fbc4-11ee-8138-e3fa2c3d8b47"/>
+</class_>
+<name>
+<val>String accountHolderName</val>
+</name>
+<visibility>
+<val>private</val>
+</visibility>
+</Property>
+<Property id="f35f3383-fbc4-11ee-9035-e3fa2c3d8b47">
+<class_>
+<ref refid="0dc462f1-fbc4-11ee-8138-e3fa2c3d8b47"/>
+</class_>
+<name>
+<val>double balance</val>
+</name>
+<visibility>
+<val>private</val>
+</visibility>
+</Property>
+<Property id="6991ecdf-fbc5-11ee-8d76-e3fa2c3d8b47">
+<class_>
+<ref refid="477ff665-fbc4-11ee-a048-e3fa2c3d8b47"/>
+</class_>
+<name>
+<val>String bankName</val>
+</name>
+<visibility>
+<val>private</val>
+</visibility>
+</Property>
+<Property id="72f675ef-fbc5-11ee-89de-e3fa2c3d8b47">
+<class_>
+<ref refid="477ff665-fbc4-11ee-a048-e3fa2c3d8b47"/>
+</class_>
+<name>
+<val>- List&lt;BankAccount&gt; accounts</val>
+</name>
+</Property>
+<Operation id="865c7ede-fbc5-11ee-98a2-e3fa2c3d8b47">
+<class_>
+<ref refid="0dc462f1-fbc4-11ee-8138-e3fa2c3d8b47"/>
+</class_>
+<name>
+<val>double deposit</val>
+</name>
+<ownedParameter>
+<reflist>
+<ref refid="865da464-fbc5-11ee-9fd5-e3fa2c3d8b47"/>
+</reflist>
+</ownedParameter>
+</Operation>
+<Parameter id="865da464-fbc5-11ee-9fd5-e3fa2c3d8b47">
+<direction>
+<val>in</val>
+</direction>
+<name>
+<val>double amount</val>
+</name>
+<ownerFormalParam>
+<ref refid="865c7ede-fbc5-11ee-98a2-e3fa2c3d8b47"/>
+</ownerFormalParam>
+</Parameter>
+<Operation id="9b89bc44-fbc5-11ee-95fb-e3fa2c3d8b47">
+<class_>
+<ref refid="0dc462f1-fbc4-11ee-8138-e3fa2c3d8b47"/>
+</class_>
+<name>
+<val>double withdraw</val>
+</name>
+<ownedParameter>
+<reflist>
+<ref refid="9b8ad784-fbc5-11ee-b9c5-e3fa2c3d8b47"/>
+</reflist>
+</ownedParameter>
+</Operation>
+<Parameter id="9b8ad784-fbc5-11ee-b9c5-e3fa2c3d8b47">
+<direction>
+<val>in</val>
+</direction>
+<name>
+<val>double amount</val>
+</name>
+<ownerFormalParam>
+<ref refid="9b89bc44-fbc5-11ee-95fb-e3fa2c3d8b47"/>
+</ownerFormalParam>
+</Parameter>
+<Operation id="a3ea8569-fbc5-11ee-a80a-e3fa2c3d8b47">
+<class_>
+<ref refid="0dc462f1-fbc4-11ee-8138-e3fa2c3d8b47"/>
+</class_>
+<name>
+<val>double getBalance</val>
+</name>
+</Operation>
+<Operation id="ab69af2b-fbc5-11ee-8d56-e3fa2c3d8b47">
+<class_>
+<ref refid="0dc462f1-fbc4-11ee-8138-e3fa2c3d8b47"/>
+</class_>
+<name>
+<val>int getAccountNumber</val>
+</name>
+</Operation>
+<Operation id="b4103821-fbc5-11ee-8387-e3fa2c3d8b47">
+<class_>
+<ref refid="0dc462f1-fbc4-11ee-8138-e3fa2c3d8b47"/>
+</class_>
+<name>
+<val>String getAccountHolderName</val>
+</name>
+</Operation>
+<Operation id="d837c1f2-fbc5-11ee-8bcc-e3fa2c3d8b47">
+<class_>
+<ref refid="477ff665-fbc4-11ee-a048-e3fa2c3d8b47"/>
+</class_>
+<name>
+<val>void addAccount</val>
+</name>
+<ownedParameter>
+<reflist>
+<ref refid="d838ecb5-fbc5-11ee-8fec-e3fa2c3d8b47"/>
+</reflist>
+</ownedParameter>
+</Operation>
+<Parameter id="d838ecb5-fbc5-11ee-8fec-e3fa2c3d8b47">
+<direction>
+<val>in</val>
+</direction>
+<name>
+<val>BankAccount account</val>
+</name>
+<ownerFormalParam>
+<ref refid="d837c1f2-fbc5-11ee-8bcc-e3fa2c3d8b47"/>
+</ownerFormalParam>
+</Parameter>
+<Operation id="67d26001-fbc6-11ee-a0c7-e3fa2c3d8b47">
+<class_>
+<ref refid="477ff665-fbc4-11ee-a048-e3fa2c3d8b47"/>
+</class_>
+<name>
+<val>BankAccount getAccountByNumber</val>
+</name>
+<ownedParameter>
+<reflist>
+<ref refid="67d37f5f-fbc6-11ee-aa9b-e3fa2c3d8b47"/>
+</reflist>
+</ownedParameter>
+</Operation>
+<Parameter id="67d37f5f-fbc6-11ee-aa9b-e3fa2c3d8b47">
+<direction>
+<val>in</val>
+</direction>
+<name>
+<val>int accountNumber</val>
+</name>
+<ownerFormalParam>
+<ref refid="67d26001-fbc6-11ee-a0c7-e3fa2c3d8b47"/>
+</ownerFormalParam>
+</Parameter>
+<Operation id="7afdb4cf-fbc6-11ee-af2e-e3fa2c3d8b47">
+<class_>
+<ref refid="477ff665-fbc4-11ee-a048-e3fa2c3d8b47"/>
+</class_>
+<name>
+<val>void transferMoney</val>
+</name>
+<ownedParameter>
+<reflist>
+<ref refid="7afedff2-fbc6-11ee-b97c-e3fa2c3d8b47"/>
+<ref refid="7affed1c-fbc6-11ee-bc28-e3fa2c3d8b47"/>
+<ref refid="7b00d334-fbc6-11ee-8820-e3fa2c3d8b47"/>
+</reflist>
+</ownedParameter>
+</Operation>
+<Parameter id="7afedff2-fbc6-11ee-b97c-e3fa2c3d8b47">
+<direction>
+<val>in</val>
+</direction>
+<name>
+<val>int fromAccountNumber</val>
+</name>
+<ownerFormalParam>
+<ref refid="7afdb4cf-fbc6-11ee-af2e-e3fa2c3d8b47"/>
+</ownerFormalParam>
+</Parameter>
+<Parameter id="7affed1c-fbc6-11ee-bc28-e3fa2c3d8b47">
+<direction>
+<val>in</val>
+</direction>
+<name>
+<val>int toAccountNumber</val>
+</name>
+<ownerFormalParam>
+<ref refid="7afdb4cf-fbc6-11ee-af2e-e3fa2c3d8b47"/>
+</ownerFormalParam>
+</Parameter>
+<Parameter id="7b00d334-fbc6-11ee-8820-e3fa2c3d8b47">
+<direction>
+<val>in</val>
+</direction>
+<name>
+<val>double amount</val>
+</name>
+<ownerFormalParam>
+<ref refid="7afdb4cf-fbc6-11ee-af2e-e3fa2c3d8b47"/>
+</ownerFormalParam>
+</Parameter>
+<Operation id="878a31e1-fbc6-11ee-849c-e3fa2c3d8b47">
+<class_>
+<ref refid="477ff665-fbc4-11ee-a048-e3fa2c3d8b47"/>
+</class_>
+<name>
+<val>String getBankName</val>
+</name>
+</Operation>
+<Operation id="8f0be97a-fbc6-11ee-b839-e3fa2c3d8b47">
+<class_>
+<ref refid="477ff665-fbc4-11ee-a048-e3fa2c3d8b47"/>
+</class_>
+<name>
+<val>void getReport</val>
+</name>
+<ownedParameter>
+<reflist>
+<ref refid="8f0d1fc2-fbc6-11ee-baa6-e3fa2c3d8b47"/>
+</reflist>
+</ownedParameter>
+</Operation>
+<Parameter id="8f0d1fc2-fbc6-11ee-baa6-e3fa2c3d8b47">
+<direction>
+<val>in</val>
+</direction>
+<name>
+<val>BankAccount account</val>
+</name>
+<ownerFormalParam>
+<ref refid="8f0be97a-fbc6-11ee-b839-e3fa2c3d8b47"/>
+</ownerFormalParam>
+</Parameter>
+<Class id="dd40f456-fbc6-11ee-b494-e3fa2c3d8b47">
+<name>
+<val>Main</val>
+</name>
+<package>
+<ref refid="7514fb11-fbc4-11ee-b3de-e3fa2c3d8b47"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="dd412469-fbc6-11ee-8733-e3fa2c3d8b47"/>
+</reflist>
+</presentation>
+</Class>
+<ClassItem id="dd412469-fbc6-11ee-8733-e3fa2c3d8b47">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 64.4502780042045, -33.98217804854524)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>279.0521087646485</val>
+</width>
+<height>
+<val>125.36289040472698</val>
+</height>
+<diagram>
+<ref refid="eb915784-fbc3-11ee-9b8e-e3fa2c3d8b47"/>
+</diagram>
+<parent>
+<ref refid="75153a11-fbc4-11ee-b020-e3fa2c3d8b47"/>
+</parent>
+<subject>
+<ref refid="dd40f456-fbc6-11ee-b494-e3fa2c3d8b47"/>
+</subject>
+</ClassItem>
+</gaphor>
