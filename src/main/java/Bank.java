@@ -31,9 +31,10 @@ public class Bank {
     }
 
     public void getReport(BankAccount account) {
-        System.out.println("Account Number: " + account.getAccountNumber());
-        System.out.println("Account Holder Name: " + account.getAccountHolderName());
-        System.out.println("Balance: " + account.getBalance());
         System.out.println("Bank Name: " + this.bankName);
+        System.out.println("Account Holder Name: " + account.getAccountHolderName());
+        System.out.println("Account Number: " + account.getAccountNumber());
+        System.out.println("Balance: " + account.getBalance());
+        System.out.println();
     }
 }
