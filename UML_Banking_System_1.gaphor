@@ -40,10 +40,10 @@ controlflow {
 <ownedPresentation>
 <reflist>
 <ref refid="75153a11-fbc4-11ee-b020-e3fa2c3d8b47"/>
+<ref refid="307c0645-fbc4-11ee-8674-e3fa2c3d8b47"/>
 <ref refid="4780384e-fbc4-11ee-b8a1-e3fa2c3d8b47"/>
 <ref refid="4bd1d746-fbc4-11ee-8f36-e3fa2c3d8b47"/>
 <ref refid="dd412469-fbc6-11ee-8733-e3fa2c3d8b47"/>
-<ref refid="307c0645-fbc4-11ee-8674-e3fa2c3d8b47"/>
 </reflist>
 </ownedPresentation>
 </Diagram>
@@ -129,7 +129,7 @@ controlflow {
 </Class>
 <ClassItem id="4780384e-fbc4-11ee-b8a1-e3fa2c3d8b47">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 215.0176954511118, 142.0608676452842)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 215.01769545111173, 141.54457125856544)</val>
 </matrix>
 <top-left>
 <val>(-150.56741744690726, 0.0)</val>
@@ -195,10 +195,10 @@ controlflow {
 </name>
 <ownedType>
 <reflist>
+<ref refid="0dc462f1-fbc4-11ee-8138-e3fa2c3d8b47"/>
 <ref refid="477ff665-fbc4-11ee-a048-e3fa2c3d8b47"/>
 <ref refid="4bd18880-fbc4-11ee-ac99-e3fa2c3d8b47"/>
 <ref refid="dd40f456-fbc6-11ee-b494-e3fa2c3d8b47"/>
-<ref refid="0dc462f1-fbc4-11ee-8138-e3fa2c3d8b47"/>
 </reflist>
 </ownedType>
 <package>
@@ -225,10 +225,10 @@ controlflow {
 </height>
 <children>
 <reflist>
+<ref refid="307c0645-fbc4-11ee-8674-e3fa2c3d8b47"/>
 <ref refid="4780384e-fbc4-11ee-b8a1-e3fa2c3d8b47"/>
 <ref refid="4bd1d746-fbc4-11ee-8f36-e3fa2c3d8b47"/>
 <ref refid="dd412469-fbc6-11ee-8733-e3fa2c3d8b47"/>
-<ref refid="307c0645-fbc4-11ee-8674-e3fa2c3d8b47"/>
 </reflist>
 </children>
 <diagram>
@@ -287,7 +287,7 @@ controlflow {
 <ref refid="477ff665-fbc4-11ee-a048-e3fa2c3d8b47"/>
 </class_>
 <name>
-<val>- List&lt;BankAccount&gt; accounts</val>
+<val>- ArrayList&lt;BankAccount&gt; accounts</val>
 </name>
 </Property>
 <Operation id="865c7ede-fbc5-11ee-98a2-e3fa2c3d8b47">
