@@ -25,6 +25,11 @@ public class Bank {
         return this.accounts.getFirst();
     }
 
+    public void transferMoney(BankAccount accountFrom, BankAccount accountTo, double amount) {
+        accountFrom.withdraw(amount);
+        accountTo.deposit(amount);
+    }
+
     public void getReport(BankAccount account) {
         System.out.println("Account Number: " + account.getAccountNumber());
         System.out.println("Account Holder Name: " + account.getAccountHolderName());
