@@ -7,17 +7,17 @@ public class BankCard {
     private BigInteger cardNumber;
     private int cardPin;
 
-    public BankCard(Scanner scanner) {
+    public BankCard() {
         generateCardNumber();
         this.cardPin = 0;
-        this.scanner = scanner;
+        this.scanner = new Scanner(System.in);
     }
 
     public void generateCardNumber(){
         Random rand = new Random();
         String randomNumberString = "";
 
-        for (int i = 0; i < 16; i++){
+        for (int i = 1; i <= 16; i++){
             int digit = rand.nextInt(10);
             randomNumberString += digit;
         }
