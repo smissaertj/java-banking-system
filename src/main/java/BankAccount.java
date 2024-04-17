@@ -9,6 +9,7 @@ public class BankAccount {
     public BankAccount(int accountNumber, String accountHolderName) {
         this.accountNumber = accountNumber;
         this.accountHolderName = accountHolderName;
+        this.bankCards = new ArrayList<>();
         this.balance = 0;
     }
 
