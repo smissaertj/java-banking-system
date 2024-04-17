@@ -22,7 +22,13 @@ public class Bank {
     }
 
     public BankAccount getAccountByNumber(int account) {
-        return this.accounts.getFirst();
+        for (BankAccount acc : this.accounts) {
+            if (acc.getAccountNumber() == account) {
+                return acc;
+            }
+        }
+
+        return null;
     }
 
     public void transferMoney(BankAccount accountFrom, BankAccount accountTo, double amount) {
@@ -30,11 +36,25 @@ public class Bank {
         accountTo.deposit(amount);
     }
 
+    public ArrayList<BankCard> getBankCards(BankAccount account){
+        ArrayList<BankCard> bankCards = new ArrayList<>();
+        for (BankAccount acc : this.accounts) {
+            if (acc.getAccountNumber() == account.getAccountNumber()) {
+                bankCards = acc.getBankCards();
+            }
+        }
+        return bankCards;
+    }
+
     public void getReport(BankAccount account) {
         System.out.println("Bank Name: " + this.bankName);
         System.out.println("Account Holder Name: " + account.getAccountHolderName());
         System.out.println("Account Number: " + account.getAccountNumber());
         System.out.println("Balance: " + account.getBalance());
+        System.out.println("Cards: ");
+        for (BankCard card : account.getBankCards()) {
+            System.out.println(card.getCardNumber());
+        }
         System.out.println();
     }
 }
