@@ -8,6 +8,8 @@ public class Main {
 
         BankAccount account1 = new BankAccount(1234, "John Doe");
         bank.addAccount(account1);
+        account1.addBankCard();
+
 
         BankAccount account2 = new BankAccount(5678, "Jane Doe");
         bank.addAccount(account2);
