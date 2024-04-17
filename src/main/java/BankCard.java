@@ -29,6 +29,10 @@ public class BankCard {
         return this.cardNumber;
     }
 
+    public int getCardPin() {
+        return this.cardPin;
+    }
+
     public void setCardPin(){
         while (true) {
             System.out.print("Create a new Card PIN: ");

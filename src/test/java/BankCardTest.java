@@ -33,4 +33,9 @@ public class BankCardTest {
         assertEquals(16, length);
     }
 
+    @Test
+    public void getCardPin(){
+        assertEquals(0, card.getCardPin());
+    }
+
 }
