@@ -15,7 +15,7 @@ public class BankCardTest {
     @Before
     public void initialize(){
         this.scanner = new Scanner(System.in);
-        this.card = new BankCard(scanner);
+        this.card = new BankCard();
     }
 
     @Test
