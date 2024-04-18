@@ -1,4 +1,6 @@
+import java.math.BigInteger;
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Bank {
     private final String bankName;
@@ -21,9 +23,9 @@ public class Bank {
         this.accounts.add(account);
     }
 
-    public BankAccount getAccountByNumber(int account) {
+    public BankAccount getAccountByNumber(BigInteger accountNumber) {
         for (BankAccount acc : this.accounts) {
-            if (acc.getAccountNumber() == account) {
+            if (Objects.equals(acc.getAccountNumber(), accountNumber)) {
                 return acc;
             }
         }
@@ -51,10 +53,9 @@ public class Bank {
         System.out.println("Account Holder Name: " + account.getAccountHolderName());
         System.out.println("Account Number: " + account.getAccountNumber());
         System.out.println("Balance: " + account.getBalance());
-        System.out.println("Cards: ");
+        System.out.println("Card Numbers: ");
         for (BankCard card : account.getBankCards()) {
             System.out.println(card.getCardNumber());
         }
-        System.out.println();
     }
 }

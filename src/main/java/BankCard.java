@@ -37,7 +37,7 @@ public class BankCard {
         while (true) {
             System.out.print("Create a new Card PIN: ");
             int cardPin = Integer.parseInt(scanner.nextLine());
-            System.out.println("Confirm new Card PIN: ");
+            System.out.print("Confirm new Card PIN: ");
             int confirmCardPin = Integer.parseInt(scanner.nextLine());
 
             if (confirmCardPin == cardPin) {

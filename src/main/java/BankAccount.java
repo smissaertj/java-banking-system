@@ -1,19 +1,32 @@
 import java.util.ArrayList;
+import java.util.Random;
+import java.math.BigInteger;
 
 public class BankAccount {
-    private final int accountNumber;
     private final String accountHolderName;
+    private BigInteger accountNumber;
     private ArrayList<BankCard> bankCards;
     private double balance;
 
-    public BankAccount(int accountNumber, String accountHolderName) {
-        this.accountNumber = accountNumber;
+    public BankAccount(String accountHolderName) {
+        this.generateAccountNumber();
         this.accountHolderName = accountHolderName;
         this.bankCards = new ArrayList<>();
         this.balance = 0;
     }
 
-    public int getAccountNumber() {
+    public void generateAccountNumber(){
+        Random rand = new Random();
+        String randomNumberString = "";
+
+        for (int i = 1; i <= 25; i++){
+            int digit = rand.nextInt(10);
+            randomNumberString += digit;
+        }
+        this.accountNumber = new BigInteger(randomNumberString);
+    }
+
+    public BigInteger getAccountNumber() {
         return this.accountNumber;
     }
 
